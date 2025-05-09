@@ -1,27 +1,50 @@
-# NYC-RENTAL-PROJECT
+# 🏙️ Pillow Palooza NYC – Short-Term Rental Real Estate Analysis  
+**By Bagdat Sarıkaş**
 
+## 📌 Project Overview
+This project analyzes short-term rental trends in **New York City** using **Airbnb data**, with the goal of uncovering insights that inform strategic investment, pricing, and growth opportunities for Pillow Palooza.
 
-PILLOW PALOOZA  NYC SHORT TERM RENTAL REAL ESTATE PROJECT
-By Bagdat SARIKAS
+Using **Python** for data cleaning, **SQL** for analytical exploration, and **Tableau** for data visualization, I delivered insights into neighborhood profitability, guest preferences, and pricing dynamics.
 
+---
 
-INTRODUCTION  
+## 🎯 Project Aim
+To help the Pillow Palooza team **maximize revenue and occupancy rates** by analyzing historical Airbnb data and providing actionable recommendations on where and how to invest in NYC’s competitive short-term rental market.
 
+---
 
-The project at Pillow Palooza focuses on analyzing the short-term rental market in New York City using Airbnb data. I aim to find out which areas are most popular, understand pricing trends, and see what types of properties are in demand. This information will help the company make smart decisions about where to invest and how to price its rentals.
+## 🛠️ Tools Used
+- **Python**: Data cleaning, preprocessing, and wrangling  
+- **SQL**: Exploratory data analysis and insight extraction  
+- **Tableau**: Interactive dashboards and data storytelling
 
+---
 
+## 📊 Key Insights  
+➤ **Manhattan** leads with the highest average monthly revenue ($5,597.7) and total borough revenue (~$393.42M)  
+➤ **Brooklyn** ranks second, reflecting a healthy and active rental market  
+➤ **Entire homes/apartments** are the most profitable and preferred room type across top boroughs  
+➤ **Slight negative correlation** between price and booked days shows guests consider factors beyond price when booking  
+➤ **Seasonal demand trends** could not be analyzed due to missing data; future tracking is recommended  
+➤ A **high-priced shared room** listing may indicate a unique property or data anomaly worth reviewing
 
+---
 
-PROJECT   BACKGROUND
+## 💡 Strategic Recommendations  
+➤ Prioritize investments in **entire homes/apartments** in Manhattan and Brooklyn  
+➤ Use **dynamic pricing strategies** to optimize bookings across all boroughs  
+➤ Implement **seasonal demand tracking** for future pricing decisions  
+➤ Focus on **enhancing listing quality** and highlighting amenities to justify premium rates  
+➤ Integrate **guest satisfaction metrics** and reviews for trust-building and competitive differentiation  
 
+---
 
-Pillow Palooza is a start-up focused on disrupting the traditional real estate market by offering short-term rental options for travelers. The company has seen a significant increase in demand for short-term rentals in New York City, but wants to better understand the market in order to optimize their business strategy.
+## 🗂️ Project Components
+| Component              | Tool     | Link Placeholder |
+|------------------------|----------|------------------|
+| Data Cleaning & Wrangling | Python  | [Python Notebook](#) |
+| Data Analysis & Insights | SQL     | [SQL Queries](#) |
+| Data Visualization     | Tableau  | [Tableau Dashboard](#) |
 
-
-PROJECT AIM
-
-
-The “ NYC short term rental “ dataset will be analyzed, in order to provide recommendations on how to maximize revenue and occupancy rates for their short-term rental properties to the Pillow Palooza team, which is responsible for leading growth and success in the short-term rental market in New York City.
-
+---
 
