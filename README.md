@@ -31,7 +31,7 @@ The aim was to find which **boroughs and property types are most profitable**, u
    - Pricing distributions across neighborhoods  
    - Interactive filters for room type & listing price  
 
-📄 **[Full PDF Report](./PILLOW%20PALOOZA%20NYC%20SHORT%20TERM%20RENTAL%20.pdf)** →  
+📄 **[Full PDF Report](https://docs.google.com/document/d/1aptBDE54iOpWe1Sp_LyRU6D5TTlgiGXHgKNMvS9GaC8/edit?tab=t.0)** →  
    - Executive summary, methodology, detailed borough analysis, recommendations:contentReference[oaicite:1]{index=1}  
 
 ---
