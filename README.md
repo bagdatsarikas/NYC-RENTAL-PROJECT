@@ -1,50 +1,72 @@
-# 🏙️ Pillow Palooza NYC – Short-Term Rental Real Estate Analysis  
-**By Bagdat Sarıkaş**
 
-## 📌 Project Overview
-This project analyzes short-term rental trends in **New York City** using **Airbnb data**, with the goal of uncovering insights that inform strategic investment, pricing, and growth opportunities for Pillow Palooza.
 
-Using **Python** for data cleaning, **SQL** for analytical exploration, and **Tableau** for data visualization, I delivered insights into neighborhood profitability, guest preferences, and pricing dynamics.
+# 🏙️ PILLOW PALOOZA — NYC Short-Term Rental Analysis 🏙️  
 
----
-
-## 🎯 Project Aim
-To help the Pillow Palooza team **maximize revenue and occupancy rates** by analyzing historical Airbnb data and providing actionable recommendations on where and how to invest in NYC’s competitive short-term rental market.
+##  Project Purpose  
+Pillow Palooza wanted to understand **New York City’s short-term rental market** using Airbnb data.  
+The aim was to find which **boroughs and property types are most profitable**, uncover **pricing dynamics**, and make **investment & pricing recommendations** for maximizing revenue:contentReference[oaicite:0]{index=0}.  
 
 ---
 
-## 🛠️ Tools Used
-- **Python**: Data cleaning, preprocessing, and wrangling  
-- **SQL**: Exploratory data analysis and insight extraction  
-- **Tableau**: Interactive dashboards and data storytelling
+##  What We Did  
+➤ Collected and cleaned multi-source Airbnb data (prices, room types, reviews)  
+➤ Analyzed borough-level performance (revenue, average prices, occupancy potential)  
+➤ Examined room-type profitability and booking behaviors  
+➤ Identified outliers and high-value listings (>$500/night)  
+➤ Investigated correlations between price, booked days, and guest reviews  
 
 ---
 
-## 📊 Key Insights  
-➤ **Manhattan** leads with the highest average monthly revenue ($5,597.7) and total borough revenue (~$393.42M)  
-➤ **Brooklyn** ranks second, reflecting a healthy and active rental market  
-➤ **Entire homes/apartments** are the most profitable and preferred room type across top boroughs  
-➤ **Slight negative correlation** between price and booked days shows guests consider factors beyond price when booking  
-➤ **Seasonal demand trends** could not be analyzed due to missing data; future tracking is recommended  
-➤ A **high-priced shared room** listing may indicate a unique property or data anomaly worth reviewing
+##  Tools & Analysis  
+🐍 **[Python Notebook](https://github.com/bagdatsarikas/NYC-RENTAL-PROJECT/blob/main/NY%20RENTAL%20project.ipynb)** →  
+   - Data cleaning & wrangling (missing values, duplicates, outliers)  
+   - Standardized boroughs, neighborhoods, and room types  
+
+🗄️ **[SQL Exploration](https://github.com/bagdatsarikas/NYC-RENTAL-PROJECT/blob/main/nycrental.sql)** →  
+   - Aggregated listings by borough, room type, and price  
+   - Calculated correlations (price vs booked days, reviews)  
+
+📈 **[Tableau Dashboard](https://public.tableau.com/app/profile/bagdat.sarikas/viz/NYC-AIRBNBRENTALMARKET/Dashboard1)** →  
+   - Visualized revenue per borough  
+   - Pricing distributions across neighborhoods  
+   - Interactive filters for room type & listing price  
+
+📄 **[Full PDF Report](./PILLOW%20PALOOZA%20NYC%20SHORT%20TERM%20RENTAL%20.pdf)** →  
+   - Executive summary, methodology, detailed borough analysis, recommendations:contentReference[oaicite:1]{index=1}  
 
 ---
 
-## 💡 Strategic Recommendations  
-➤ Prioritize investments in **entire homes/apartments** in Manhattan and Brooklyn  
-➤ Use **dynamic pricing strategies** to optimize bookings across all boroughs  
-➤ Implement **seasonal demand tracking** for future pricing decisions  
-➤ Focus on **enhancing listing quality** and highlighting amenities to justify premium rates  
-➤ Integrate **guest satisfaction metrics** and reviews for trust-building and competitive differentiation  
+##  Key Results  
+➤ **Borough Performance**  
+- Manhattan: Avg. monthly price = **$5,597.7**, Revenue ≈ **$393.4M**  
+- Brooklyn: Revenue ≈ **$279.1M**  
+- Queens, Bronx, Staten Island → much lower revenues:contentReference[oaicite:2]{index=2}  
+
+➤ **Room Types**  
+- Entire homes/apts: **Most popular & profitable** (13,266 listings, avg. $197)  
+- Private rooms: Affordable ($81 avg.) → mid-market appeal  
+- Shared rooms: Least popular, low revenue:contentReference[oaicite:3]{index=3}  
+
+➤ **High-Priced Listings**  
+- 395 entire homes/apts, 19 private rooms, 1 shared room listed **>$500/night**  
+- Most in **Manhattan & Brooklyn**:contentReference[oaicite:4]{index=4}  
+
+➤ **Price Sensitivity**  
+- Weak negative correlation between price & booked days (≈ –0.08)  
+- Price alone does **not strongly predict occupancy**:contentReference[oaicite:5]{index=5}  
 
 ---
 
-## 🗂️ Project Components
-| Component              | Tool     | Link Placeholder |
-|------------------------|----------|------------------|
-| Data Cleaning & Wrangling | Python  | [Python Notebook](#) |
-| Data Analysis & Insights | SQL     | [SQL Queries](#) |
-| Data Visualization     | Tableau  | [Tableau Dashboard](#) |
+## 💡 Outcome & Recommendations  
+🚀 **Accomplishment:** Delivered an end-to-end **data-driven market study** for NYC rentals.  
+💡 **Business Value:**  
+- Prioritize **entire homes/apts in Manhattan & Brooklyn** (highest returns).  
+- For Queens/Bronx/Staten Island → use competitive pricing & highlight unique property features.  
+- Adopt **dynamic pricing strategies** around local events and seasons.  
+- Collect **seasonal demand data** (missing in this dataset) to refine strategy.  
+🔄 **Next Step:** Incorporate guest reviews, satisfaction, and seasonal tracking for deeper insights:contentReference[oaicite:6]{index=6}.  
 
 ---
 
+## ✍️ Author  
+**Bağdat Sarıkaş** — Data Analytics & Market Insights
